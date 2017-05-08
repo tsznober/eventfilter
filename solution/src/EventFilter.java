@@ -56,7 +56,7 @@ public class EventFilter {
 				count++;
 				serviceGuids.put(serviceGuid, new Integer(count));
 			} else {
-				serviceGuids.put(serviceGuid, new Integer(0));
+				serviceGuids.put(serviceGuid, new Integer(1));
 			}
 		}
 		
